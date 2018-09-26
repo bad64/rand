@@ -6,12 +6,12 @@ main.o: main.c
 
 .PHONY: install
 install: rand
-	cp rand /usr/bin/rand
-	chmod a+x /usr/bin/rand
+	cp rand /usr/local/bin/rand
+	chmod a+x /usr/local/bin/rand
 
 .PHONY: uninstall
 uninstall:
-	rm -rf /usr/bin/rand
+	rm -rf /usr/local/bin/rand
 
 .PHONY: clean
 clean:
