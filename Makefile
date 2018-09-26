@@ -14,5 +14,9 @@ uninstall:
 	rm -rf /usr/bin/rand
 
 .PHONY: clean
-clean :
+clean:
 	rm main.o
+
+.PHONY: distclean
+distclean:
+	rm -rf main.o rand
