@@ -10,3 +10,6 @@ if you fail :-)
 **USAGE**
 
 rand <option 1> <option 2>... <option n>
+
+Alternatively, you can pass an integer range thusly: rand <boundary 1>..<boundary 2>  
+Boundary 1 does not need to be the lower boundary, neither does boundary 2 need to be the upper one, the program sorts them anyway.

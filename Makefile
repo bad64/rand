@@ -20,3 +20,7 @@ clean:
 .PHONY: distclean
 distclean:
 	rm -rf main.o rand
+
+.PHONY: love
+love:
+	echo "Not war ?"
