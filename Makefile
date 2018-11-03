@@ -23,4 +23,4 @@ distclean:
 
 .PHONY: love
 love:
-	echo "Not war ?"
+	@echo "Not war ?"
