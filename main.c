@@ -29,7 +29,7 @@ int main (int argc, char** argv)
 		if (argc > 2)
 		{
 			srand(time(NULL));
-			printf("%s\n", argv[rand() % (argc-1)]);
+			printf("%s\n", argv[rand() % (argc-1) + 1]);
 		}
 		else if (argc == 2)
 		{
