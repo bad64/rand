@@ -1,4 +1,6 @@
-# Rand
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+
+ # Rand
 
 I have a couple of MCQs this week, and had some spare time. Apparently too much of it, because somehow I decided to waste them by coming up with this.
 
